@@ -1,32 +1,166 @@
-*{
-    text-decoration: none;
-    font-family: sans-serif;
-    
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
+body {
+    background: #fdfdfd;
+    color: #222;
+}
 
-.navbar{
+/* NAVBAR */
+.navbar {
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    padding: 25px 60px;
+}
+
+.navbar nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #555;
+}
+
+.logo {
+    color: #2bbf9b;
+}
+
+.btn-outline {
+    border: 1px solid #2bbf9b;
+    background: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #2bbf9b;
+    cursor: pointer;
+}
+
+/* HERO */
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 80px 60px;
+    gap: 50px;
+    align-items: center;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.hero-buttons button {
+    margin-right: 15px;
+}
+
+.btn-primary {
+    background: #2bbf9b;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-secondary {
+    background: none;
+    border: none;
+    color: #555;
+    cursor: pointer;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+}
+
+.card-image img {
+    width: 260px;
+}
+
+/* TRUST */
+.trust {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.brands {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 15px;
+    color: #999;
+}
+
+/* FEATURES */
+.features {
+    padding: 80px 60px;
+}
+
+.features-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.feature-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+/* BENEFITS */
+.benefits {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 80px 60px;
+    gap: 50px;
+    align-items: center;
+}
+
+.benefits ul {
+    margin-top: 20px;
+}
+
+.benefits li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+/* FOOTER */
+.footer {
+    background: #0b1f2a;
+    color: white;
+    padding: 60px;
+    display: flex;
     justify-content: space-between;
 }
 
-.btn.outline{
-background-color: white;
-border: 0;
-
-}
-.btn-login{
-    justify-content: center;
-    background-color: rgb(130, 255, 213);
-    border: none;
-    padding: 5px 30px 0px 10px;
+.footer-links {
+    display: flex;
+    gap: 60px;
 }
 
-.logo{
-    
-    color: rgb(102, 255, 196);
-    
+.footer a {
+    display: block;
+    color: #aaa;
+    text-decoration: none;
+    margin-top: 10px;
 }
 
 
