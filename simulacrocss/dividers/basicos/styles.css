@@ -1,0 +1,83 @@
+/*container*/
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  background-color: antiquewhite;
+}
+
+
+
+/* columnas horizontales (grid, no fex)*/
+.grid-4 {
+  display: grid;
+  /* 4- 5 columnas*/
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
+}
+
+
+/*COLUMNAS VERTICALES
+Usa FLEX*/
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px;
+  border-radius: 16px;
+  background: white;
+}
+
+
+
+/*TEXTO AL LADO DE TEXTO*/
+.text-row {
+  display: flex;
+  gap: 40px;
+}
+
+
+
+/*imagen y texto*/
+.media {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 90px;
+}
+
+
+
+/*
+DOS IMÁGENES JUNTAS
+Horizontal
+.images {
+  display: flex;
+  gap: 20px;
+}
+
+.images img {
+  width: 100%;
+}
+
+Vertical
+.images {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+
+*/
+
+
+

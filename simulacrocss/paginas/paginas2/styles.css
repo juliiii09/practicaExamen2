@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* NAV */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: black;
+  color: white;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  padding: 100px 40px;
+  text-align: center;
+  background: #f4f4f4;
+}
+
+/* ABOUT */
+.about {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 40px;
+  padding: 60px;
+}
+
+.about img {
+  width: 100%;
+  border-radius: 16px;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* PROJECTS */
+.projects {
+  padding: 60px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.project-card {
+  padding: 40px;
+  background: #eee;
+  border-radius: 12px;
+  text-align: center;
+}
+
+/* FOOTER */
+.footer {
+  padding: 30px;
+  text-align: center;
+  background: black;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* NAV */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 40px;
+  background: #111;
+  color: white;
+}
+
+.navbar a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+/* MOVIE */
+.movie {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  gap: 40px;
+  padding: 60px;
+}
+
+.movie img {
+  width: 100%;
+  border-radius: 16px;
+}
+
+.movie-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* LOGIN */
+.login {
+  max-width: 400px;
+  margin: 80px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.login input {
+  padding: 10px;
+}
+
+.btn {
+  padding: 10px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
