@@ -1,0 +1,245 @@
+
+body {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #333131;
+}
+
+
+/* barra de navegacion*/
+.navbar{
+    
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    text-decoration: none;
+    background-color:aliceblue;
+    text-decoration: none;
+    padding: 40px;
+
+}
+
+/* botones de login ty sign-up*/
+
+.login1{
+   background-color:aliceblue;
+    color: #51bb20;
+    border: none;
+    padding: 8px 15px 2px;
+    border-radius: 15%;
+}
+
+.login1:hover{
+    background-color: #0a5f0a;
+color: #ffffff;
+transition: all 0.3s ease;
+
+}
+
+
+.login2{
+    color: aliceblue;
+    background-color: rgb(92, 214, 67);
+    border: none;
+    padding: 8px 15px 2px;
+    border-radius: 15%;
+}
+
+.login2:hover {
+    background-color: #0a5f0a;
+color: #ffffff;
+transition: all 0.3s ease;
+}
+
+
+/* grafica inicial*/
+
+.hero{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    
+    H1{
+        font-size:xxx-large;
+    }
+    .hero-text{
+        p{
+            color: #929191;
+            font-size: small;
+        }
+    }
+   
+}
+.register{
+    background-color: #5bda5b;
+    color: #ffffff;
+    border: none;
+}
+.register:hover{
+background-color: #0a5f0a;
+color: #ffffff;
+transition: all 0.3s ease;
+
+  
+
+}
+
+
+
+
+
+    
+
+   /*
+    color: #fbfffb;
+    background-color:rgb(92, 214, 67);
+    border: none;
+    padding: 8px 15px 2px;
+    border-radius: 8%;
+    */
+
+    
+    
+
+
+/*flex para marcas*/
+
+.our-clients{
+    .brands{
+    display: flex;
+    justify-content: center;
+}
+h2{
+        text-align: center;
+        font-size:xx-large;
+        color: hsl(0, 1%, 20%);
+    }
+    p{
+        text-align: center;
+        color: #646464;
+    }
+
+
+
+}
+
+/**/
+
+.features{
+    
+   display: grid;
+
+   
+    text-align: center;
+
+    h2{
+    font-size:x-large;
+    color: hsl(0, 1%, 20%);
+    }
+    p{
+        align-items: first baseline;
+       color: #646464;
+    }
+    
+}
+
+
+/* seccion de features*/
+.featured-grid{
+    display: flex;
+   flex-direction: row;
+   gap: 30px;
+   justify-content: space-between;
+}
+
+
+
+
+/* diseño de botones*/
+
+.pixelgrade{
+    display: flex;  
+    align-items: center;
+    padding: 10px 0px 10px;}
+
+
+
+.btn-pixelgrade{
+ width:15%;
+ background-color: #5bda5b;
+    color: #ffffff;
+    border: none;
+}
+
+.btn-pixelgrade:hover{
+background-color: #0a5f0a;
+color: #ffffff;
+transition: all 0.3s ease;
+
+
+}
+
+
+        
+    /*diseño cartas*/
+
+.info{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 20px;
+}
+
+.card2{
+    background-color: aliceblue;
+}
+
+.footer-brand{
+  background-color: #263238;
+ 
+}
+
+
+
+.pre-footer{
+display: grid;
+
+.card {
+    display: flex;
+
+    .card-container2{
+        display: grid;
+        background-color: aliceblue;
+        
+    }
+
+    .card-container{
+        display: flexbox;
+    }
+}
+
+
+
+
+}
+
+.marketing-plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    gap: 15px;
+  
+        
+    }
+
+
+
+.card{
+ display: grid;
+ 
+
+}
+
