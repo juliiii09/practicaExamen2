@@ -1,0 +1,909 @@
+* { /* RESET Y ESTILOS BASE */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    overflow-x: hidden;
+}
+
+/*
+   LAYOUT GENERAL
+ */
+.section {
+    padding: 80px 0;
+    width: 100%;
+}
+
+.section.alt {
+    background-color: #f8f9fa;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/*
+   HEADER Y NAVBAR
+ */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.img-logo img {
+    height: 40px;
+    width: auto;
+}
+
+/* Navegación central */
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #28cb8b;
+}
+
+/* Botones del header */
+.button-login {
+    background: transparent;
+    border: 2px solid #28cb8b;
+    color: #28cb8b;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-right: 10px;
+}
+
+.button-login:hover {
+    background-color: #28cb8b;
+    color: white;
+}
+
+.button-sing {
+    background-color: #28cb8b;
+    border: 2px solid #28cb8b;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button-sing:hover {
+    background-color: transparent;
+    color: #28cb8b;
+}
+
+/*
+   HERO SECTION
+ */
+#hero .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.text-hero {
+    flex: 1;
+}
+
+.text-hero h2 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: #717171;
+    margin-bottom: 20px;
+}
+
+.text-hero h2 br {
+    color: #28cb8b;
+}
+
+.text-hero p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #89939e;
+    margin-bottom: 30px;
+}
+
+.img-hero {
+    flex: 1;
+    text-align: center;
+}
+
+.img-hero img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+/* Botón principal */
+.button {
+    background-color: #28cb8b;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #219a6f;
+    transform: translateY(-2px);
+}
+
+/*
+   CLIENTS SECTION
+ */
+#hero div:last-child {
+    text-align: center;
+    margin-top: 80px;
+}
+
+#hero div:last-child h2 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: #717171;
+    margin-bottom: 15px;
+}
+
+#hero div:last-child p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #89939e;
+    margin-bottom: 40px;
+}
+
+.img-clients img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+
+/*
+   COMMUNITY SECTION
+ */
+#community .text {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#community h2 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: #717171;
+    margin-bottom: 15px;
+}
+
+#community p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #89939e;
+}
+
+/*
+   ORGANIZATION SECTION (3 COLUMNAS)
+ */
+#organisation .content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-top: 60px;
+}
+
+#organisation > div > div {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+#organisation img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+#organisation h3 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #717171;
+    margin-bottom: 15px;
+}
+
+#organisation p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #89939e;
+}
+
+/*
+   PIXELGRADE SECTION
+ */
+#pixelgrade .content {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.img-pixelgrade {
+    flex: 1;
+}
+
+.img-pixelgrade img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+#pixelgrade .text {
+    flex: 1;
+}
+
+#pixelgrade h2 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: #717171;
+    margin-bottom: 20px;
+}
+
+#pixelgrade p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #89939e;
+    margin-bottom: 30px;
+}
+
+/*
+   BUSINESS SECTION
+ */
+#business .content {
+    display: grid;
+    grid-template-columns: 1fr repeat(4, 1fr);
+    gap: 40px;
+    align-items: center;
+}
+
+#business .text {
+    grid-column: 1;
+}
+
+#business h2 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: #717171;
+    margin-bottom: 15px;
+}
+
+#business h2 br {
+    color: #28cb8b;
+}
+
+#business .text p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #89939e;
+}
+
+/* Estadísticas */
+.img-members, .img-club, .img-booking, .img-payments {
+    text-align: center;
+}
+
+.img-members img, .img-club img, .img-booking img, .img-payments img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.img-members h2, .img-club h2, .img-booking h2, .img-payments h2 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: #717171;
+    margin-bottom: 5px;
+}
+
+.img-members p, .img-club p, .img-booking p, .img-payments p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #89939e;
+}
+
+/*
+   FOOTER-LIKE SECTION
+ */
+#footer-like .content {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.img-footer-like {
+    flex: 1;
+}
+
+.img-footer-like img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+#footer-like .text {
+    flex: 1;
+}
+
+#footer-like h2 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: #717171;
+    margin-bottom: 20px;
+}
+
+#footer-like p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #89939e;
+    margin-bottom: 30px;
+}
+
+/*
+   TIM SMITH SECTION
+ */
+#timsmith .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: start;
+}
+
+.img-timsmith img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+#timsmith .text p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #89939e;
+    margin-bottom: 20px;
+}
+
+#timsmith h3 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #717171;
+    margin-bottom: 10px;
+}
+
+#timsmith .text p:last-of-type {
+    color: #89939e;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.img-customers {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.img-customers img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.img-customers .button {
+    background: transparent;
+    color: #28cb8b;
+    border: 2px solid #28cb8b;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.img-customers .button:hover {
+    background-color: #28cb8b;
+    color: white;
+}
+
+/*
+   MARKETING SECTION
+ */
+#marketing .text {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#marketing h2 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: #717171;
+    margin-bottom: 20px;
+}
+
+#marketing p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #89939e;
+}
+
+/*
+   MARKETING IMAGES SECTION (3 COLUMNAS)
+ */
+#marketing-images .content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-top: 60px;
+}
+
+#marketing-images > div > div {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+#marketing-images img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+#marketing-images > div > div:hover img {
+    transform: scale(1.05);
+}
+
+#marketing-images p {
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #89939e;
+}
+
+#marketing-images .button {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: transparent;
+    color: #28cb8b;
+    border: 2px solid #28cb8b;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#marketing-images .button:hover {
+    background-color: #28cb8b;
+    color: white;
+}
+
+/*
+   LIBERO SECTION
+ */
+#libero .text {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#libero h1 {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 76px;
+    color: #717171;
+    margin-bottom: 30px;
+}
+
+#libero h1 br {
+    color: #28cb8b;
+}
+
+/*
+   FOOTER
+ */
+#footer {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 60px 0 20px;
+}
+
+#footer-one .img-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#footer-one img {
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+#footer-one p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #89939e;
+    margin-bottom: 30px;
+}
+
+#footer-one .button {
+    background: transparent;
+    border: 2px solid #333;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+#footer-one .button:hover {
+    border-color: #28cb8b;
+    color: #28cb8b;
+}
+
+#footer-two {
+    border-top: 1px solid #333;
+    margin-top: 40px;
+    padding-top: 40px;
+}
+
+#footer-two .content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+#footer-two h3 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#footer-two ul {
+    list-style: none;
+}
+
+#footer-two ul li {
+    margin-bottom: 10px;
+}
+
+#footer-two ul li a {
+    color: #89939e;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    transition: color 0.3s ease;
+}
+
+#footer-two ul li a:hover {
+    color: #28cb8b;
+}
+
+#footer-two .text-3 {
+    position: relative;
+}
+
+#footer-two input {
+    width: 100%;
+    padding: 12px 45px 12px 15px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+}
+
+#footer-two input::placeholder {
+    color: #666;
+}
+
+#footer-two .fa-paper-plane {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #28cb8b;
+    cursor: pointer;
+}
+
+/*
+   RESPONSIVE DESIGN
+ */
+
+/* Tablet - 1024px */
+@media (max-width: 1024px) {
+    .content {
+        padding: 0 30px;
+    }
+    
+    .navbar {
+        padding: 15px 30px;
+    }
+    
+    .nav-links {
+        gap: 20px;
+    }
+    
+    #hero .content,
+    #pixelgrade .content,
+    #footer-like .content {
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+    }
+    
+    #organisation .content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    
+    #business .content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        text-align: center;
+    }
+    
+    #business .text {
+        grid-column: 1;
+    }
+    
+    #timsmith .content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        text-align: center;
+    }
+    
+    #marketing-images .content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    
+    #footer-two .content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+}
+
+/* Tablet - 768px */
+@media (max-width: 768px) {
+    .section {
+        padding: 60px 0;
+    }
+    
+    .navbar {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 30px;
+    }
+    
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    
+    .text-hero h2,
+    #community h2,
+    #pixelgrade h2,
+    #business h2,
+    #marketing h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    
+    #libero h1 {
+        font-size: 48px;
+        line-height: 56px;
+    }
+    
+    #organisation .content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    #marketing-images .content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    #footer-one .img-logo {
+        align-items: center;
+        text-align: center;
+    }
+    
+    #footer-two .content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        text-align: center;
+    }
+}
+
+/* Mobile - 480px */
+@media (max-width: 480px) {
+    .section {
+        padding: 40px 0;
+    }
+    
+    .content {
+        padding: 0 20px;
+    }
+    
+    .navbar {
+        padding: 15px 20px;
+    }
+    
+    .nav-links {
+        gap: 10px;
+    }
+    
+    .nav-links a {
+        font-size: 14px;
+    }
+    
+    .button-login,
+    .button-sing {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+    
+    .text-hero h2,
+    #community h2,
+    #pixelgrade h2,
+    #business h2,
+    #marketing h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    
+    #libero h1 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+    
+    .text-hero p,
+    #community p,
+    #pixelgrade p,
+    #marketing p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    
+    #organisation h3,
+    #timsmith h3,
+    #footer-two h3 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    
+    .img-members h2,
+    .img-club h2,
+    .img-booking h2,
+    .img-payments h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    
+    #marketing-images p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    #footer {
+        padding: 40px 0 20px;
+    }
+    
+    #footer-one p,
+    #footer-two ul li a {
+        font-size: 16px;
+    }
+}
+
+/*
+   ANIMACIONES Y EFECTOS
+ */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.section {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+/* Efectos hover mejorados */
+.nav-links a,
+.button-login,
+.button-sing,
+.button,
+#footer-two ul li a {
+    transition: all 0.3s ease;
+}
+
+/* Mejoras de accesibilidad */
+.button:focus,
+.nav-links a:focus {
+    outline: 2px solid #28cb8b;
+    outline-offset: 2px;
+}
+
+/* Scroll suave */
+html {
+    scroll-behavior: smooth;
+}
