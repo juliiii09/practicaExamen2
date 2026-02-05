@@ -1,0 +1,6 @@
+name,password,role
+admin,1234,admin
+juan,1234,instructor
+diego,1234,student
+maria,1234,personnellaura,student,student
+laura,1234,personnel

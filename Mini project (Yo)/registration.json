@@ -1,0 +1,77 @@
+[
+    {
+        "Cedula": 20123456,
+        "Nombre": "Maria Jose Gonzalez Perez",
+        "Nota final": 2.8
+    },
+    {
+        "Cedula": 21234567,
+        "Nombre": "Juan Pablo Ramirez Higgins",
+        "Nota final": 5.0
+    },
+    {
+        "Cedula": 19876543,
+        "Nombre": "Ana Sofia Martinez",
+        "Nota final": 5.0
+    },
+    {
+        "Cedula": 20987654,
+        "Nombre": "Diego Armando Lopez Sanchez",
+        "Nota final": 4.9
+    },
+    {
+        "Cedula": 21111222,
+        "Nombre": "Valentina Ignacia Castro",
+        "Nota final": 3.5
+    },
+    {
+        "Cedula": 20555666,
+        "Nombre": "Tomas Andres Morales",
+        "Nota final": 3.9
+    },
+    {
+        "Cedula": 21987321,
+        "Nombre": "Camila Paz Herrera",
+        "Nota final": 4.8
+    },
+    {
+        "Cedula": 19123456,
+        "Nombre": "Benjamin Ignacio Torres",
+        "Nota final": 4.8
+    },
+    {
+        "Cedula": 22345678,
+        "Nombre": "Sofia Antonia Vargas",
+        "Nota final": 2.5
+    },
+    {
+        "Cedula": "1020110871",
+        "Nombre": "Juan Diego",
+        "Nota final": 4.0
+    },
+    {
+        "Cedula": 21555177,
+        "Nombre": "Isidora Belen Fernandez",
+        "Nota final": 1.8
+    },
+    {
+        "Cedula": 20888479,
+        "Nombre": "Vicente Javier Castro",
+        "Nota final": 1.9
+    },
+    {
+        "Cedula": 21222333,
+        "Nombre": "Florencia Paz Ramirez",
+        "Nota final": 5.0
+    },
+    {
+        "Cedula": 19999888,
+        "Nombre": "Agustin Jose Perez",
+        "Nota final": 3.7
+    },
+    {
+        "Cedula": 22111222,
+        "Nombre": "Emilia Ignacia Soto",
+        "Nota final": 4.6
+    }
+]
